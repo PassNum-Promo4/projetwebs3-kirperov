@@ -1,7 +1,7 @@
 # projetwebs3-kirperov
 projetwebs3-kirperov created by GitHub Classroom
 
-# Application Sport Nation*
+# Application Sport Nation
 
 
 ## How to install this application?
@@ -11,6 +11,7 @@ projetwebs3-kirperov created by GitHub Classroom
 
 * Google Chrome
 * Text editor exemple (visual Studio Code , Atom ...)
+* Nodemon (npm install nodemon -g)
 
 1. You need to write command line: git clone <this link reperstory>
 2. Unzippe the file
