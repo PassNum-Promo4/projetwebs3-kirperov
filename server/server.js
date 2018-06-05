@@ -1,3 +1,4 @@
+ /* Adding all the middlewares */
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
@@ -34,6 +35,7 @@ app.use('/api/search', productSearchRoutes);
 
 
 app.use(cors());
+/* Run Server */
 
 app.listen(config.port, err => {
     console.log('magic happen on port awesome ' + config.port);
