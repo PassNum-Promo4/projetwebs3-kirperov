@@ -5,7 +5,7 @@ projetwebs3-kirperov created by GitHub Classroom
 
 
 ## How to install this application?
-==========================
+===================================================================
 
 ### Prerequisites
 
