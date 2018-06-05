@@ -15,8 +15,8 @@ projetwebs3-kirperov created by GitHub Classroom
 1. You need to write command line: git clone <this link reperstory>
 2. Unzippe the file
 3. Next you need to navigate into reperstory projetwebs3-kirperov
-4. Go to folder server and install the module dependencie with run the command "npm install"
-4. Open folder client and navigate into folder AngularApp and install the module dependencie with run the command "npm install" and "npm i @angular-devkit/build-angular"
+4. Go to folder server and install the module dependencie with run the command "sudo npm install"
+4. Open folder client and navigate into folder AngularApp and install the module dependencie with run the command "sudo npm install" and "sudo npm i @angular-devkit/build-angular"
 5. Into the terminal to folder server write nodemon server 
 6. For running on Linux desktop , for chrome browser use the following command on terminal: google-chrome --disable-web-security --user-data-dir="/tmp/someFolderName"
 
