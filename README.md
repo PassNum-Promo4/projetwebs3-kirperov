@@ -11,7 +11,6 @@ projetwebs3-kirperov created by GitHub Classroom
 
 * Google Chrome
 * Text editor exemple (visual Studio Code , Atom ...)
-* 
 
 1. You need to write command line: git clone <this link reperstory>
 2. unzippe the file
