@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const bcrypt = require('bcrypt-nodejs');
 const crypto = require('crypto');
 
-const UserSchema = new Schema({
+const UserSchema = new Schema({ 
     email: { type: String, unique: true, lowercase: true },
     name: String,
     password: String,
@@ -21,6 +21,7 @@ const UserSchema = new Schema({
     created: { type: Date, default: Date.now }
 });
 
+/* Before save password we crypt password */
 UserSchema.pre('save', function(next) {
     var user = this;
 
@@ -34,6 +35,7 @@ UserSchema.pre('save', function(next) {
     });
 });
 
+/*  compare Password in database and a user password */
 UserSchema.methods.comparePassword = function(password) {
     return bcrypt.compareSync(password, this.password);
 };
