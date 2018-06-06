@@ -7,7 +7,8 @@ projetwebs3-kirperov created by GitHub Classroom
 ## How to install this application?
 
 
-*Prerequisites
+Prerequisites
+-----------------
 
 * Google Chrome (Disable Web Security in Chrome)
 * Text editor exemple (visual Studio Code , Atom ...)
