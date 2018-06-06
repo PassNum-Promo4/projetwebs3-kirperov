@@ -25,6 +25,7 @@ Prerequisites:
    For Windows:  in Properties find the input box with label “Target” in this box the location of chrome is given as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe".
    
    All we have to do is add few lines to that given location as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="c:/someFolderName"
+   For more information: https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome
   
 8. Then into the terminal to folder client write ng serve.
 9. Open Chrome and write http://localhost:4200/
