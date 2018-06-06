@@ -1,3 +1,4 @@
+// * IMPORT DEPENDENCIES * //
 const router = require('express').Router();
 const jwt = require('jsonwebtoken');
 
@@ -39,6 +40,8 @@ router.post('/signup', (req, res, next) => {
     });
 });
 
+
+/* LOGIN */
 router.post('/login', (req, res, next) => {
 
     User.findOne({ email: req.body.email }, (err, user) => {
@@ -76,6 +79,7 @@ router.post('/login', (req, res, next) => {
 
 });
 
+/* PROFILE */
 router.route('/profile')
     .get(chekJWT, (req, res, next) => {
         User.findOne({ _id: req.decoded.user._id }, (err, user) => {
@@ -86,6 +90,7 @@ router.route('/profile')
             });
         });
     })
+/* UPDATE EMAIL, NAME ABD PASSWORD */
     .post(chekJWT, (req, res, next) => {
         User.findOne({ _id: req.decoded.user._id }, (err, user) => {
             if (err) return next(err);
@@ -104,7 +109,7 @@ router.route('/profile')
             });
         });
     })
-
+/* PELETE PROFILE */
     .delete(chekJWT, (req, res, next) => {
         User.findOne({ _id: req.decoded.user._id }, (err, user) => {
             if (err) return next(err);
@@ -116,7 +121,7 @@ router.route('/profile')
             });
         });
     });
-
+// * UPDATE ADDRESS * //
     router.route('/address')
     .get(chekJWT, (req, res, next) => {
         User.findOne({ _id: req.decoded.user._id }, (err, user) => {
