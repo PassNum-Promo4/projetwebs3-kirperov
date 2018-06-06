@@ -2,6 +2,7 @@
 projetwebs3-kirperov created by GitHub Classroom
 
 # Application Sport Nation
+(The database is installed on mLab)
 
 
 ## How to install this application?
