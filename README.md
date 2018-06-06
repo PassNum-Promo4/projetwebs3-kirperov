@@ -16,7 +16,7 @@ projetwebs3-kirperov created by GitHub Classroom
 ## Installation
 
 1. You need to write command line: git clone https://github.com/PassNum-Promo4/projetwebs3-kirperov.git
-2. Unzippe the file
+2. Unzippe the file if you download on zip
 3. Next you need to navigate into reperstory projetwebs3-kirperov
 4. Go to folder server and install the module dependencie with run the command "sudo npm install"
 5. Open folder client and navigate into folder AngularApp and install the module dependencie with run the command "sudo npm install" and "sudo npm i @angular-devkit/build-angular"
