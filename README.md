@@ -15,7 +15,7 @@ projetwebs3-kirperov created by GitHub Classroom
 
 ## Installation
 
-1. You need to write command line: git clone <this link reperstory>
+1. You need to write command line: git clone https://github.com/PassNum-Promo4/projetwebs3-kirperov.git
 2. Unzippe the file
 3. Next you need to navigate into reperstory projetwebs3-kirperov
 4. Go to folder server and install the module dependencie with run the command "sudo npm install"
