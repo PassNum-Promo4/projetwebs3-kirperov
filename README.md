@@ -5,15 +5,15 @@ projetwebs3-kirperov created by GitHub Classroom
 
 
 ## How to install this application?
-===================================================================
 
-### Prerequisites
+
+*Prerequisites
 
 * Google Chrome (Disable Web Security in Chrome)
 * Text editor exemple (visual Studio Code , Atom ...)
 * Nodemon (npm install nodemon -g)
 
-## Installation
+### Installation
 
 1. You need to write command line: git clone https://github.com/PassNum-Promo4/projetwebs3-kirperov.git
 2. Unzippe the file if you download on zip
