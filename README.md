@@ -23,7 +23,8 @@ projetwebs3-kirperov created by GitHub Classroom
 6. Into the terminal to folder server write nodemon server 
 7. For running on Linux desktop , for chrome browser use the following command on terminal: google-chrome --disable-web-security --user-data-dir="/tmp/someFolderName"
  
-   For Windows:  in Properties find the input box with label “Target” in this box the location of chrome is given as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+   For Windows:  in Properties find the input box with label “Target” in this box the location of chrome is given as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe".
+   
    All we have to do is add few lines to that given location as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="c:/someFolderName"
   
 8.Then into the terminal to folder client write ng serve
