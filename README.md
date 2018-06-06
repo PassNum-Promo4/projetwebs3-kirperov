@@ -27,5 +27,5 @@ projetwebs3-kirperov created by GitHub Classroom
    
    All we have to do is add few lines to that given location as follows: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="c:/someFolderName"
   
-8.Then into the terminal to folder client write ng serve
-9.Open Chrome and write http://localhost:4200/
+8. Then into the terminal to folder client write ng serve.
+9. Open Chrome and write http://localhost:4200/
